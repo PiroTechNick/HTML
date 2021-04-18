@@ -96,7 +96,7 @@ body {
 .categories__item {
     color: white;
     width: 360px;
-    min-height: 260px;
+    max-height: 260px;
     background-color: var(--brown);
     margin: 0 0 30px;
     display: flex;
@@ -122,20 +122,24 @@ body {
 }
 
 .categories__item--woman {
+    height: 260px;
     background-image: url(../img/woman-categories.jpg);
 }
 
 .categories__item--man {
+    height: 260px;
     background-image: url(..//img/man-categories.jpg);
 }
 
 .categories__item--kids {
+    height: 260px;
     background-image: url(..//img/kids-categories.jpg);
 }
 
 .categories__item--accessories {
     width: 100%;
     margin: 0;
+    height: 180px;
     background-image: url(..//img/accsessories-categories.jpg);
 }
 
