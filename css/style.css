@@ -99,9 +99,6 @@ body {
     max-height: 260px;
     background-color: var(--brown);
     margin: 0 0 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .categories__text {
@@ -110,7 +107,17 @@ body {
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-}
+    margin: 105px 0 0 0;
+    }
+
+    .categories__text-accessories {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin: 65px 0 0 0;  
+    }
 
 .categories__heading {
     color: var(--dark-pink);
